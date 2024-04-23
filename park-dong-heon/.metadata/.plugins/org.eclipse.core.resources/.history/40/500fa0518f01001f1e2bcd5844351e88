@@ -1,0 +1,15 @@
+package quiz;
+
+public class Program {
+	
+	
+	public static void main(String[] args) {				// main 메소드, EntryPoint 프로그램이 실행될 때 시작되는 지점
+		// TODO Auto-generated method stub
+		MatrixCalc mc = new MatrixCalc();					//
+		
+		mc.work(true);
+//		PrimeNumber pn = new PrimeNumber();
+//		pn.work();
+	}
+
+}
