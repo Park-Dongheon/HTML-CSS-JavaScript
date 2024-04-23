@@ -1,9 +1,0 @@
-package edu;
-
-public class Test13 {
-	public static void main(String[] args) {
-		int f = 12;
-		int g = (~f); //two's complement
-		System.out.println(g);
-	}
-}
