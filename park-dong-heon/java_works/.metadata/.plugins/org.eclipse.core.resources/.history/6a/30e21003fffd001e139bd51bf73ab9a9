@@ -1,0 +1,25 @@
+package com.ruby.java.test1;
+
+public class Cylinder {
+
+	int radius = 2;
+	int height = 3;
+	double pi = 3.141592;
+	double volume;
+	double area;
+	
+	void setData(int r, int h, int p) {
+		radius = r;
+		height = h;
+		pi = p;
+	}
+	
+	void getVolume() {
+		volume = pi * radius * radius * height;
+	}
+	
+	void getArea() {
+		area = pi * radius * radius * 2 + (2 * pi * radius) * height;
+	}
+	
+}

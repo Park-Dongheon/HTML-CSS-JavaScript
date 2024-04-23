@@ -1,0 +1,26 @@
+package com.ruby.java.test1;
+
+import java.util.Scanner;
+
+public class Cylinder {
+	
+	
+	Scanner sc = new Scanner(System.in);
+	
+	int radius = sc.nextInt();
+	int height = sc.nextInt();
+	
+	int setData(int r, int h) {
+		radius = r;
+		height = h;
+	}
+	
+	double getVolume() {
+		return Math.PI * radius * radius * height;
+	}
+	
+	double getArea() {
+		return Math.PI * radius * radius * 2 + (2 * Math.PI * radius) * height;
+	}
+	
+}

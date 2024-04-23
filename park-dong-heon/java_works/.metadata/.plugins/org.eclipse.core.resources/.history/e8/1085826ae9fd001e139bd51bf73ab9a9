@@ -1,0 +1,13 @@
+package com.ruby.java.test1;
+
+public class Test {
+	public static void main(String[] args) {
+		
+		Armor armor = new Armor();
+		
+		armor.takeOff();
+		armor.land();
+		armor.shootLaser();
+		armor.launchMissile();
+	}
+}

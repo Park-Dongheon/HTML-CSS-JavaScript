@@ -1,0 +1,28 @@
+package com.ruby.java.test1;
+
+public class Armor {
+	String name = "John";
+	int height;
+	int weight;
+	String color;
+	boolean isFly;
+	
+	void takeOff() {
+		System.out.println("-".repeat(10));
+		System.out.println("takeOff 메서드가 호출되었습니다.");
+		System.out.println("+=".repeat(10));
+	}
+	
+	void land() {
+		System.out.println("land 메서드가 호출되었습니다.");
+	}
+	
+	void shootLaser() {
+		System.out.println("shootLaser 메서드가 호출되었습니다.");
+	}
+	
+	void launchMissile() {
+		System.out.println("launchMissile 메서드가 호출되었습니다.");
+	}
+	
+}
