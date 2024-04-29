@@ -1,0 +1,30 @@
+.container {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-profile {
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.team-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    /* 사진을 찌그러트리려고 해도 비율을 유지할려고 함 */
+    object-position: top;
+    /* 사진 비율을 꼭대기 부터 보여줘 */
+    border-radius: 50%;
+    
+}
+
+.team-name {
+    margin: 1rem 0 1rem;
+}
+
+.team-role {
+    font-size: 0.8rem;
+    color: #888;
+}

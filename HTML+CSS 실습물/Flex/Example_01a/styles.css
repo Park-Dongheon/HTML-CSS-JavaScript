@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+}
+
+.quote {
+    margin: 1rem;
+    padding: 1.5rem;
+    background-color: #DBEAFF;
+    border-radius: 1rem;
+}
+
+.quote p {
+    margin: 0 0 0.5rem;
+    font-family: serif;
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.quote span {
+    font-size: 0.9rem;
+    color: #787878;
+}
