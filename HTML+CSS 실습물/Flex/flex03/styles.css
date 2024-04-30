@@ -1,0 +1,41 @@
+body {
+    color: #333;
+}
+
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 60px 0;
+}
+
+.team-profile {
+    text-align: center;
+    padding: 15px 25px;
+}
+
+.team-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%
+}
+
+.team-name {
+    margin: 15px 0 5px;
+}
+
+.team-role {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}

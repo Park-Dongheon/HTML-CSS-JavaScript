@@ -1,0 +1,36 @@
+body {
+    background-color: #F1F5F9;
+}
+
+p {
+    text-align: center;
+    margin-top: 40px;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+    width: 700px;
+    margin: 30px auto;
+    background-color: white;
+}
+
+ul li {
+    padding: 20px;
+    text-align: center;
+    transition: flex;
+    transition-duration: 0.2s;
+}
+
+ul li:hover {
+    cursor: pointer;
+    border-bottom: solid 3px #2DD4BF;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    flex-grow: 1;
+}

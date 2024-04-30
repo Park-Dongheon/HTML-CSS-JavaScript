@@ -161,9 +161,8 @@ body {
     width: 0.1cm;
     margin-right: 0.1cm;
 }
+/* leftPanel */
 
-
-/* Panelright */
 .rightPanel {
     width: 70%;
     padding: 0.7cm;
@@ -207,6 +206,7 @@ body {
     display: flex;
     justify-content: space-between;
 }
+/* rigthPanel */
 
 .item {
     padding-bottom: 0.7cm;
@@ -219,9 +219,4 @@ body {
 
 .lastParagrafNoMarginBottom {
     margin-bottom: 0;
-}
-
-.workExperience>ul>li {
-    padding-left: ;
-
 }

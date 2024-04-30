@@ -1,0 +1,16 @@
+html 구조 파악하기
+
+*태그 구조
+-div(container) > div(quote, quote, quote) > p, span
+
+*css 가정
+-body의 배경색을 준다
+-클래스 선택자 container의 배경색을 주고, alin-item 중앙, text-align 중앙,  padding값 1rem, border-raidous 1.5rem, box-shadow 1
+-클래스 선택자 quote의 배경색을 주고, padding 1.5rem, border-raidous 0.5rem
+-div(container) 자식 div(quote) 3개를 flex를 하고, justfied-contents streach, 
+
+*css실행
+.container 클래스 선택자: display: flex
+.quote 클래스 선택자: margin 1rem, padding 1.5rem, background-color #DBEAFF, border-radius 1rem
+.quote 클래스 선택자의 하위 태그 p: margin 0 0 0.5rem, font-family serif, font-style italic, font-size 1.2rem, color #333
+.quote 클래스 선택자의 하위 태그 span: font-size 0.9rem, color #787878
